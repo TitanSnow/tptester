@@ -98,7 +98,7 @@ your repo
     |-- .test.json
 ```
 
-All is done! run `python3 tptester/__init__.py` in dir `tests` to auto run the tests!
+All is done! run `python3 -m tptester` in dir `tests` to auto run the tests!
 
 To add it to your CI scripts like `.travis.yml` just need to add one line:
 ```yaml
